@@ -6,7 +6,7 @@ import { defaultSettings } from './settings';
 
 export const environment = {
 	production: false,
-	serverURL: 'http://localhost:8888',
+	serverURL: '0.0.0.0',
 	storageVersion: 6,
 	settings: defaultSettings
 };
